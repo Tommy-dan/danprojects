@@ -1,0 +1,25 @@
+Quick setup - if you've done git repository before
+
+- Creating a new repository on the commandline
+  echo "$ git beginner-guide repo" >> README.md
+  
+  git init
+  git add <YOUR FILE NAME>
+  git commit -m "first commit"
+  git remote add origin https://github.com/myaccount-name-here/git-beginner-guide-repo-git
+  git push -u origin master
+
+
+- Pushing to an existing repository from commandline
+  
+  git remote add origin https://github.com/myaccount-name-here/git-beginner-guide-repo-git
+  git push -u origin master
+  git status
+  
+
+- To clone to your local computer
+  git clone [https Address]
+
+To move into repository on your computer
+cd [Name of the repository]
+  
