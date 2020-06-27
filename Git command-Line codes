@@ -18,8 +18,16 @@ Quick setup - if you've done git repository before
   
 
 - To clone to your local computer
-  git clone [https Address]
+   git clone [https Address]
 
-To move into repository on your computer
-cd [Name of the repository]
-  
+- To move into repository on your computer
+   cd [Name of the repository]
+   
+- Useful commands for Git
+   git log  -> get the log history
+   git chechout  -> revert back all your changes since the last committed
+   git checkout [FILE NAME]
+   git diff [FILE NAME]  -> check the differences in the changes committed
+   git clean -dfx
+   
+
